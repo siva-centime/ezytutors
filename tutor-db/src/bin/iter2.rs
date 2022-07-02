@@ -5,13 +5,13 @@ use std::env;
 use std::io;
 use std::sync::Mutex;
 
-#[path = "./iter2/handlers.rs"]
+#[path = "../iter2/handlers.rs"]
 mod handlers;
-#[path = "./iter2/models.rs"]
+#[path = "../iter2/models.rs"]
 mod models;
-#[path = "./iter2/routes.rs"]
+#[path = "../iter2/routes.rs"]
 mod routes;
-#[path = "./iter2/state.rs"]
+#[path = "../iter2/state.rs"]
 mod state;
 
 use routes::*;
