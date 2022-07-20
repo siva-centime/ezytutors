@@ -1,0 +1,1 @@
+delete from ezy_course_c6 where course_id=3;
